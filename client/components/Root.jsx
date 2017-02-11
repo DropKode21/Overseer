@@ -21,8 +21,6 @@ class Root extends Component {
         const username = e.target.elements.username.value;
         const password = e.target.elements.password.value;
         
-        console.log('fetching');
-
         fetch('/', {
             method: 'post',
             body: JSON.stringify({
